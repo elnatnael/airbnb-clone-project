@@ -6,7 +6,16 @@ Product owner (PO): Holding more responsibility for a product’s success than a
 Project manager (PM): A project manager is responsible for distributing tasks across team members, planning work activities, and updating project status.
 UI/UX designer: A UI designer devises intuitive, easy-to-use, and eye-pleasing interfaces for a product, while the UX part stands for thinking out the entire journey of a user’s interaction with a product. Thus, A UX designer is involved in user research, persona development, information architecture design, wireframing, prototyping, and more.
 Software architect: An architect is an expert-level software engineer who makes executive software design decisions on behalf of an app development team.
-Software developer:A software developer does the actual job and codes an application. And just like an app features a front end and a back end, there are front-end and back-end developers.
-Quality assurance (QA) engineer:The job of a quality assurance engineer is to verify whether an application meets the requirements—both functional and non-functional. Functional requirements define what an application should do, while non-functional requirements specify how it should do that. To verify both, QA specialists run various checks, followed by analyzing the test results and reporting on the application quality.
+Software developer: A software developer does the actual job and codes an application. And just like an app features a front end and a back end, there are front-end and back-end developers.
+Quality assurance (QA) engineer: The job of a quality assurance engineer is to verify whether an application meets the requirements, both functional and non-functional. Functional requirements define what an application should do, while non-functional requirements specify how it should do that. To verify both, QA specialists run various checks, followed by analyzing the test results and reporting on the application quality.
 Test automation engineer: A test automation engineer is there to help you test faster and better. To enable that, they develop test automation scripts—small programs that provide reliable and continuous feedback on application quality without any human involvement.
 DevOps engineer: Even in Agile environments, development and operations teams can be siloed. DevOps engineers serve as a link between the two teams, unifying and automating the software delivery process and helping strike a balance between introducing changes quickly and keeping an application stable.
+###Technology Stack
+Django:It is a high-level Python Web framework used for building RESTful API.
+Django REST Framework: provides tools for creating and managing RESTful APIs.
+PostgreSQL: A powerful relational database used for data storage.
+GraphQL: Allows for flexible and efficient querying of data.
+Celery: For handling asynchronous tasks such as sending notifications or processing payments. 
+Redis: used for caching and session management.
+Docker: A Containerization  tool for a consistent development and deployment environment.
+CI/CD Pipelines: Automated pipelines for testing and deploying code changes.  
