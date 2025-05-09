@@ -54,5 +54,10 @@ Key entities :
    Authorization: It is used to control access to resources based on user roles.
    Rate limiting: It is used to prevent abuse, such as brute-force attacks.
  Security is crucial to protect user data (such as personal and payment info), secure financial transactions, and maintain trust in the platform by preventing unauthorized access and data breaches.
+##CI/CD Pipeline
+CI/CD (Continuous Integration/Continuous Deployment) pipelines automate the process of testing, building, and deploying code changes. They are important for your project because they ensure new features or fixes are delivered quickly, reliably, and without breaking existing functionality.
+   GitHub Actions for automation
+   Docker for containerization, and 
+   platforms like Heroku or AWS for deployment.
 
 
