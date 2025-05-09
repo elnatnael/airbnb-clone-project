@@ -42,3 +42,12 @@ Key entities :
             3. currency = E.g., USD, EUR
             4. Payment method = E.g., credit card, PayPal, Stripe, Apple Pay
             5. status = E.g., pending, completed, failed, refunded
+##Feature Breakdown
+  User management: It helps the  Airbnb clone project by securely handling registration, login, roles (guest or host), and user data. It ensures personalized experiences, protects sensitive information, and enables key features like bookings, reviews, and payments to be correctly linked to each user.
+  Property management: It enables hosts to create, update, and manage their listings, including descriptions, pricing, availability, and images. It ensures guests can browse accurate and up-to-date property information, which is essential for successful bookings and user trust.
+  Booking system: It enables guests to reserve available properties for specific dates. It manages availability, prevents double bookings, and connects users, properties, and payments to ensure a smooth reservation process.
+  Payment Processing: Integrate a payment system to handle transactions and record payment details.
+  Review System: Allow users to leave reviews and ratings for properties.
+  Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
+
+
