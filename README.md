@@ -49,5 +49,10 @@ Key entities :
   Payment Processing: Integrate a payment system to handle transactions and record payment details.
   Review System: Allow users to leave reviews and ratings for properties.
   Data Optimization: Ensure efficient data retrieval and storage through database optimizations.
+##API Security
+   Authentication: It is used to verify user identity.
+   Authorization: It is used to control access to resources based on user roles.
+   Rate limiting: It is used to prevent abuse, such as brute-force attacks.
+ Security is crucial to protect user data (such as personal and payment info), secure financial transactions, and maintain trust in the platform by preventing unauthorized access and data breaches.
 
 
