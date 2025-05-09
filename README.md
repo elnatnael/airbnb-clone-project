@@ -10,7 +10,7 @@ Software developer: A software developer does the actual job and codes an applic
 Quality assurance (QA) engineer: The job of a quality assurance engineer is to verify whether an application meets the requirements, both functional and non-functional. Functional requirements define what an application should do, while non-functional requirements specify how it should do that. To verify both, QA specialists run various checks, followed by analyzing the test results and reporting on the application quality.
 Test automation engineer: A test automation engineer is there to help you test faster and better. To enable that, they develop test automation scripts—small programs that provide reliable and continuous feedback on application quality without any human involvement.
 DevOps engineer: Even in Agile environments, development and operations teams can be siloed. DevOps engineers serve as a link between the two teams, unifying and automating the software delivery process and helping strike a balance between introducing changes quickly and keeping an application stable.
-###Technology Stack
+##Technology Stack
 Django:It is a high-level Python Web framework used for building RESTful API.
 Django REST Framework: provides tools for creating and managing RESTful APIs.
 PostgreSQL: A powerful relational database used for data storage.
@@ -19,3 +19,26 @@ Celery: For handling asynchronous tasks such as sending notifications or process
 Redis: used for caching and session management.
 Docker: A Containerization  tool for a consistent development and deployment environment.
 CI/CD Pipelines: Automated pipelines for testing and deploying code changes.  
+##Database Design
+Key entities : 
+  User: 1. Name 
+        2. Age 
+        3. ID
+  Properties: 1. Title 
+              2. Description
+              3. Location
+              4. price_per_night 
+  Bookings: 1. Id
+            2. user_id = Foreign key to the Users table (the guest).
+            3. Property_id = Foreign key to the Properties table (what’s being booked).
+            4. total_Price = Calculated based on price per night × number of nights.
+  Reviews: 1. user_id 
+           2. property_id
+           3. booking_id = Foreign key to the Bookings table (to ensure only completed stays can be reviewed)
+           4. rating = Numeric score (e.g., 1 to 5 stars) 
+           5. comment
+  Payments: 1. booking_id
+            2. amount = 
+            3. currency = E.g., USD, EUR
+            4. Payment method = E.g., credit card, PayPal, Stripe, Apple Pay
+            5. status = E.g., pending, completed, failed, refunded
